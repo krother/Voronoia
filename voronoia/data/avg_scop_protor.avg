@@ -1,0 +1,31 @@
+
+atomtype	# atoms	average packing_density	std.dev	std.dev [%]	
+C3H0b	 64694	 0.805	 0.065	 8.102	
+C3H0s	192428	 0.821	 0.050	 6.117	
+C3H1b	 33219	 0.612	 0.059	 9.556	
+C3H1s	 30529	 0.629	 0.056	 8.885	
+C4H1b	 85667	 0.753	 0.057	 7.543	
+C4H1s	100740	 0.780	 0.051	 6.498	
+C4H2b	 22236	 0.649	 0.055	 8.548	
+C4H2s	 78784	 0.660	 0.052	 7.818	
+C4H3u	 80664	 0.580	 0.052	 8.907	
+N3H0u	  9262	 0.853	 0.043	 5.002	
+N3H1b	  8885	 0.680	 0.075	10.998	
+N3H1s	168417	 0.756	 0.054	 7.159	
+N3H2u	  6048	 0.606	 0.063	10.413	
+N4H3u	   633	 0.643	 0.079	12.302	
+O1H0u	146922	 0.608	 0.061	10.066	
+O2H1u	 11534	 0.590	 0.072	12.150	
+S2H0u	  5405	 0.600	 0.063	10.438	
+
+    
+
+----------------------------------------------------------------------
+When using Voronoia for packing calculations (or anything else),please cite:
+    Voronoia: Analyzing packing in protein structures
+    Kristian Rother, Bjoern Gruening, Andrean Goede, Peter Hildebrand, Robert Preissner (submitted)
+
+
+
+
+    

@@ -1,0 +1,21 @@
+
+Voronoia 
+   is a tool calculating atomic packing and intramolecular 
+   cavities in proteins. 
+   
+   Input files are in PDB format.
+   Packing data will be written to .vol files (PDB-like).
+   
+Website:
+   http://bioinformatics.charite.de/superpacking
+   
+Authors:
+   Kristian Rother   : application front-end
+   Andrean Goede     : Voronoi cell algorithm
+   Peter Hildebrandt : packing database and testing
+   Fiete Haack       : web interface
+   Robert Preissner  : concept and coordination
+
+Contact:
+   robert@drug-redesign.de
+   

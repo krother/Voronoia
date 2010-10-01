@@ -1,0 +1,31 @@
+
+atomtype	# atoms	average total_volume	std.dev	std.dev [%]	
+C3H0b	 64694	 7.572	 1.538	20.305	
+C3H0s	192428	 7.832	 0.526	 6.711	
+C3H1b	 33219	21.669	 2.181	10.065	
+C3H1s	 30529	22.039	 2.166	 9.829	
+C4H1b	 85667	16.081	 1.878	11.676	
+C4H1s	100740	17.143	 1.265	 7.379	
+C4H2b	 22236	25.358	 2.541	10.022	
+C4H2s	 78784	25.705	 2.814	10.946	
+C4H3u	 80664	37.235	 3.585	 9.627	
+N3H0u	  9262	 6.497	 0.431	 6.628	
+N3H1b	  8885	14.718	 2.169	14.739	
+N3H1s	168417	12.478	 1.033	 8.276	
+N3H2u	  6048	23.944	 3.003	12.541	
+N4H3u	   633	21.028	 3.805	18.095	
+O1H0u	146922	14.163	 1.662	11.737	
+O2H1u	 11534	15.463	 2.528	16.348	
+S2H0u	  5405	27.650	 4.839	17.502	
+
+    
+
+----------------------------------------------------------------------
+When using Voronoia for packing calculations (or anything else),please cite:
+    Voronoia: Analyzing packing in protein structures
+    Kristian Rother, Bjoern Gruening, Andrean Goede, Peter Hildebrand, Robert Preissner (submitted)
+
+
+
+
+    

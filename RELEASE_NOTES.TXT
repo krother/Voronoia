@@ -1,0 +1,15 @@
+
+Voronoia Source Code release 1.0.1
+
+(2010/10/01)
+
+This release was made to make the source code available on Github, 
+although it is messy.
+The binary get_volume.exe was removed; it is available from
+http://bioinformatics.charite.de/voronoia
+
+In case of all questions, please refer to Kristian Rother
+
+krother@rubor.de
+
+
