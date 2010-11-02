@@ -451,7 +451,12 @@ This is either 'residuename_atomname' e.g. 'TYR_CA', or one of 18 concise ProtOr
         """
         bfactor = options['bfactor']
         out = []
-        zsc = ZScore(AveragePacking(options))
+        # z-score calculation only needed when the b-factor is to
+        # be replaced with the z-score
+        # actually, the expensive part is not the ZScore initialization
+        # but the AveragePacking initialization
+        if bfactor == 'zscore':
+            zsc = ZScore(AveragePacking(options))
         for i in range(len(self.atoms)):
             if not self.valid[i]:continue
             atom = self.get_atom(i)
