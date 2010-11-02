@@ -14,7 +14,13 @@ setup(
     version = '1.0.1',
     package_data = {
         'voronoia': ['data/*']
-    }
+    },
+    data_files = [
+        ('scripts', ['scripts/convert_vol_for_jmol.py',
+                     'scripts/view_nsc_pymol.py',
+                     'scripts/voronoia.bat'
+                     ])
+    ]
 )
 
 
