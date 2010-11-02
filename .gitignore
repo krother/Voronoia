@@ -7,3 +7,5 @@
 *.komodoproject
 
 setuptools_git*
+*.egg-info/
+dist/
