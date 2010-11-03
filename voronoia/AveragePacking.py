@@ -46,7 +46,7 @@ class AveragePacking:
         """
         self.ref_data = {}
         for l in open(filename,'r').readlines()[1:]:
-            if not re.search("\AName",l):
+            if not re.search("\AName",l) and not re.search("\Aatomtype",l):
                 tok=string.split(l,"\t")
                 if len(tok)>=4:
                     # tok[0]:atomtype
