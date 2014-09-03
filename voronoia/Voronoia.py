@@ -30,7 +30,6 @@
 # CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 # ----------------------------------------------------------------------
 
-import Voronoia_GUI
 from VolParser import *
 from AveragePacking import *
 from ZScore import *
@@ -39,7 +38,7 @@ from MoleculeDataset import *
 import os,sys,re
 import tempfile
 
-INSTALL_DIR = Voronoia_GUI.__file__[:-16]
+INSTALL_DIR = __file__[:-12]
 # patch paths on Py2Exe
 INSTALL_DIR = re.sub('library\.zip','',INSTALL_DIR)
 # there is another strange backslash bug here:
@@ -52,7 +51,7 @@ REFERENCE_FILE = INSTALL_DIR + 'data'+os.sep+"avg_scop_protor.avg"
 EXECUTABLE = 'data'+os.sep+"get_volume.exe"
 ATOMTYPE_FILE = INSTALL_DIR +'data'+os.sep+"protor_atomtypes.txt"
 ABOUT_FILE = INSTALL_DIR + 'data'+os.sep+'about.txt'
-HELP_FILE = INSTALL_DIR + 'data'+os.sep+'README.TXT'
+HELP_FILE = INSTALL_DIR + '..'+os.sep+'README.TXT'
 APPLICATION_NAME = 'Voronoia Packing Toolbox'
 
 

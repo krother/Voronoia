@@ -1,0 +1,11 @@
+*.DS_Store
+*.kpf
+*.komodotools
+*.pyc
+*.sync.db
+*.sync.db-journal
+*.komodoproject
+
+setuptools_git*
+*.egg-info/
+dist/
